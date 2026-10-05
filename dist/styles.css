@@ -10,8 +10,10 @@
 .hero-image{object-fit:contain;object-position:center right;background:var(--dark)}
 .hero:after{background:linear-gradient(90deg,#10181d 0%,#10181d 43%,#10181dcc 52%,#22343d25 70%,#22343d05 100%)}
 @media(max-width:800px){
-  .hero-image{top:auto;bottom:0;height:320px;width:100%;object-fit:contain;object-position:center bottom;background:var(--dark)}
-  .hero:after{background:linear-gradient(180deg,#10181d 0%,#10181df5 29%,#10181d99 52%,#10181d15 78%,#10181d 100%)}
+  .hero-image{position:relative;top:auto;right:auto;bottom:auto;width:100%;height:auto;aspect-ratio:16/9;display:block;margin:24px 0 0;object-fit:contain;object-position:center;background:var(--dark);z-index:0}
+  .hero:after{display:none}
+  .hero .eyebrow{color:#fff}
+  .hero .stats{margin-top:26px}
   .hero h1,.hero-subtitle{position:relative;z-index:1;text-shadow:none}
   .hero h1{max-width:360px}
   .hero-subtitle{max-width:330px}
