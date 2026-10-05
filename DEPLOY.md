@@ -1,0 +1,1 @@
+Отдельный проект Vercel: autokran-rostov. Framework Preset: Other. Output Directory: dist. Build Command и Install Command: пустые. Не привязывать к проекту СпецРядом. Контакты находятся в dist/config.js. MAX скрыт до добавления точной ссылки. Браузерная проверка остаётся незавершённой.
