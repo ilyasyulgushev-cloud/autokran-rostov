@@ -1,0 +1,27 @@
+/* Mobile-first refinements */
+.header-phone{display:none}
+@media (max-width:800px){
+  .header-phone{display:inline-flex;align-items:center;justify-content:center;color:#fff;background:var(--orange);border-radius:4px;padding:10px 12px;font-size:13px;font-weight:700;margin-left:auto;margin-right:2px}
+  .hero-image{height:470px;object-position:50% 45%}
+  .hero-content{padding-top:28px;padding-bottom:24px}
+  .stats{margin-top:155px;margin-bottom:22px}
+  .hero .actions{gap:9px}
+  .hero .button[data-contact="email"]{display:none}
+  .hero-details{margin-top:22px;gap:14px}
+  .gallery img{height:330px}
+  .spec-table>div{display:block;padding:14px 0}
+  .spec-table dt{font-size:13px;margin-bottom:5px}
+  .spec-table dd{text-align:left;max-width:none;font-size:16px}
+  .mobile-bar{grid-template-columns:1fr 1fr;padding-left:10px;padding-right:10px}
+  .mobile-bar a[data-contact="email"]{display:none}
+}
+@media (max-width:480px){
+  .header-phone{font-size:12px;padding:9px 10px}
+  .hero-image{height:425px;object-position:50% 44%}
+  .hero-content{padding-top:24px}
+  .stats{margin-top:145px;gap:16px 12px}
+  .stats b{font-size:16px}
+  .stats small{font-size:11px}
+  .hero .button{min-height:48px}
+  .gallery img{height:310px}
+}
