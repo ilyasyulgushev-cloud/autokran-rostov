@@ -27,11 +27,11 @@
 }
 /* Mobile hero follows the requested reading order: text, full photo, then actions. */
 @media(max-width:800px){
-  .hero h1{font-size:22px;letter-spacing:-.5px;text-transform:uppercase}
+  .hero h1{font-size:26px;letter-spacing:-.5px;text-transform:uppercase}
   .hero-image{position:relative;top:auto;right:auto;bottom:auto;width:calc(100% + 40px);height:auto;aspect-ratio:16/9;display:block;margin:24px -20px 0;object-fit:contain;object-position:center;background:var(--dark);z-index:0}
   .hero:after{display:none}
   .hero .eyebrow{color:#fff}
   .hero .stats{margin-top:26px}
 }
-@media(max-width:480px){.hero h1{font-size:20px}}
+@media(max-width:480px){.hero h1{font-size:24px}}
  .hero h1{text-transform:uppercase}
