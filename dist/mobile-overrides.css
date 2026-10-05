@@ -25,3 +25,10 @@
   .hero .button{min-height:48px}
   .gallery img{height:310px}
 }
+/* Mobile hero follows the requested reading order: text, full photo, then actions. */
+@media(max-width:800px){
+  .hero-image{position:relative;top:auto;right:auto;bottom:auto;width:100%;height:auto;aspect-ratio:16/9;display:block;margin:24px 0 0;object-fit:contain;object-position:center;background:var(--dark);z-index:0}
+  .hero:after{display:none}
+  .hero .eyebrow{color:#fff}
+  .hero .stats{margin-top:26px}
+}
